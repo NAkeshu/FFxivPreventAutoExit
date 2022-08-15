@@ -87,6 +87,8 @@ def main():
         ClickKey(hexKeyCode)
         ClickKey(hexKeyCode)
 
+        print("activate {}:{}".format(time.localtime().tm_hour, time.localtime().tm_min))
+
         if (NeedAlert):
             duration = 500  # milliseconds
             freq = 440  # Hz

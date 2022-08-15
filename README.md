@@ -2,13 +2,13 @@
 
 ## 原理
 
-每20分钟自动模拟按两次esc键，更新状态
+模拟键盘`esc`键，每20分钟按两次，更新状态。
 
 ## 使用方法：
 
-### 下载编译好的exe文件
+### 直接使用编译好的exe文件
 
-Releases 中下载FFxivPreventAutoExit.exe文件，*管理员权限*运行，回到游戏中即可。
+`Releases` 中下载`FFxivPreventAutoExit.exe`文件，**管理员权限**运行，回到游戏中**并保持游戏窗口在前台且保持活动状态**。
 
 ### 自行编译：
 
@@ -17,16 +17,16 @@ Releases 中下载FFxivPreventAutoExit.exe文件，*管理员权限*运行，回
 ```bash
 git clone git@github.com:NAkeshu/FFxivPreventAutoExit.git
 cd FFxivPreventAutoExit
-pyinstaller -F ./ffxiv_prevent_auto_exit.py
+pyinstaller -F --uac-admin ./ffxiv_prevent_auto_exit.py
 ```
 
-*管理员权限*运行dist文件夹下的ffxiv_prevent_auto_exit.exe
+**管理员权限**运行`dist`文件夹下的`ffxiv_prevent_auto_exit.exe`文件。
 
 ### 直接运行
 
 环境：python3、pyinstaller
 
-*需要在管理员权限下运行脚本*
+**需要在管理员权限下运行脚本**
 
 ```bash
 git clone git@github.com:NAkeshu/FFxivPreventAutoExit.git
@@ -34,7 +34,7 @@ cd FFxivPreventAutoExit
 python ./ffxiv_prevent_auto_exit.py
 ```
 
-## 部分配置
+## 可选配置
 
 ```python
 # Configurations

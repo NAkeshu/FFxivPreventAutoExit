@@ -10,7 +10,7 @@ NeedAlert = True
 
 """
 Reference:
-1. [stackoverflow](https://stackoverflow.com/questions/12590145/how-to-simulate-raw-input-send-a-wm-input-message-to-an-application-the-right)
+1. [stackoverflow](https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game)
 2. [key scan codes](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/aa299374(v=vs.60)?redirectedfrom=MSDN)
 """
 

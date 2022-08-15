@@ -44,5 +44,5 @@ NeedAlert = True  # 更新状态后是否发出提示音（True / False）
 
 ## 参考
 
-1. [How to simulate raw input / Send a WM_INPUT message to an application the right way? (stackoverflow)](https://stackoverflow.com/questions/12590145/how-to-simulate-raw-input-send-a-wm-input-message-to-an-application-the-right)
+1. [How to simulate raw input / Send a WM_INPUT message to an application the right way? (stackoverflow)](https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game)
 2. [Scan Key Code](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/aa299374(v=vs.60)?redirectedfrom=MSDN)
